@@ -1,0 +1,29 @@
+{
+  "name": "gh-release-downloader",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sefinek/gh-release-downloader#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek/gh-release-downloader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek/gh-release-downloader.git"
+  },
+  "license": "MIT",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "kleur": "^4.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "globals": "^16.1.0"
+  }
+}
