@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('env-native').config();
 const axios = require('axios');
 const kleur = require('kleur');
 const fs = require('node:fs/promises');
