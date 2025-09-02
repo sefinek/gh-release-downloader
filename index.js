@@ -1,4 +1,4 @@
-require('env-native').config();
+process.loadEnvFile();
 const axios = require('axios');
 const kleur = require('kleur');
 const fs = require('node:fs/promises');
