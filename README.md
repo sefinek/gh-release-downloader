@@ -1,5 +1,6 @@
 # GitHub Release Downloader
-Downloads all assets and the source `.zip` file from GitHub releases into versioned folders. Also saves the release description as `README.md`. Useful for creating backups.
+Downloads all assets and the source `.zip` file from GitHub releases into versioned folders.
+Also saves the release description as `README.md`. Useful for creating backups. MIT license.
 
 ## Clone
 ```bash
@@ -13,6 +14,3 @@ cp .env.default .env
 nano .env
 node .
 ```
-
-## MIT License
-Copyright 2025 © by [Sefinek](https://sefinek.net). All Rights Reserved.
